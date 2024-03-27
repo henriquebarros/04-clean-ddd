@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "test":"vitest run",
+    "test:watch":"vitest"
+  },
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.2.2",
     "@types/node": "^20.11.30",
