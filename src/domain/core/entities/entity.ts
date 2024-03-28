@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { randomUUID } from 'node:crypto'
+import { UniqueEntityID } from './unique-entity'
 
 export class Entity<T> {
-  private _id: string
+  private _id: UniqueEntityID
   // protected Pode ser acessado pela classe Entity todas as que a estendem.
   protected props: T
 
@@ -12,6 +12,6 @@ export class Entity<T> {
 
   constructor(props: T, id?: string) {
     this.props = props
-    this._id = id ?? randomUUID()
+    this._id = new UniqueEntityID(id)
   }
 }
