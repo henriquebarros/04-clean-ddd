@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "test":"vitest run",
-    "test:watch":"vitest"
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.2.2",
@@ -9,5 +9,8 @@
     "eslint": "^8.57.0",
     "typescript": "^5.4.3",
     "vitest": "^1.4.0"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.11"
   }
 }
