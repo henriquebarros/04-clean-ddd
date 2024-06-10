@@ -4,9 +4,9 @@
   "_version": "21.0.0",
 
   "compilerOptions": {
-    "lib": ["es2023"],
-    "module": "node16",
-    "target": "es2022",
+    // "lib": ["es2023"],
+    "module": "commonjs",
+    "target": "es2020",
     "baseUrl": "./",
     "paths": {
       "@/*": ["./src/*"]
@@ -17,6 +17,6 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "moduleResolution": "node16"
+    // "moduleResolution": "node16"
   }
 }
